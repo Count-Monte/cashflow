@@ -3,3 +3,5 @@
 .DS_Store
 *.synctex.gz
 *.gz
+
+bin/

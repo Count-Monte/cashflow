@@ -1,7 +1,3 @@
-/*
- * SPDX-License-Identifier: Apache-2.0
- */
-
 'use strict';
 
 const { FileSystemWallet, Gateway } = require('fabric-network');
@@ -77,7 +73,6 @@ async function main() {
                 }
 
                 result = await contract.submitTransaction('createAgreement', userRole, agreementNumber, cid, camount, cpartner_1, cpartner_2);
-                // console.log(`Transaction has been evaluated.`);
                 break;
             case 'changeAmount':
                 let [agreementNumberRef, newAmount] = args.slice(2,4)
@@ -88,7 +83,6 @@ async function main() {
                 }
 
                 result = await contract.submitTransaction('changeAgreementAmount', userRole, agreementNumberRef, newAmount);
-                // console.log(`Transaction has been evaluated.`);
                 break;
             case 'sign':
                 // args[2] is agreementNumber
@@ -98,7 +92,6 @@ async function main() {
                 }
 
                 result = await contract.submitTransaction('signAgreement', userRole, args[2]);
-                // console.log(`Transaction has been evaluated.`);
                 break;
             default:
                 console.error('Please enter a valid function name.');
@@ -110,8 +103,6 @@ async function main() {
         } 
 
         // Disconnect from the gateway.
-        await gateway.disconnect();
-
         await gateway.disconnect();
 
     } catch (error) {
