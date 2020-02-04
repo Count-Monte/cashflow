@@ -8,6 +8,8 @@
 
 This project originated from the seminar on [*Advanced Blockchain Technologies*](https://www.in.tum.de/i13/teaching/winter-semester-201920/advanced-seminar-blockchain-technologies/) (IN2107) at the Technical University of Munich. Within the scope of this course, we analyzed the technical characteristics, advantages as well as limitations of Hyperledger Fabric thoroughly, and proposed a proof-of-concept for a given use case.
 
+## Content
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
@@ -26,6 +28,8 @@ This project originated from the seminar on [*Advanced Blockchain Technologies*]
 ## Use Case & Motivation
 
 With the objective to track money in large construction projects, project `CashFlow` aims to build a redundant alternative to legal agreements on paper. By implementing a prototype based on Hyperledger Fabric, we suggest a solution that is transparent, secure and efficient.
+
+In our [report](https://raw.githubusercontent.com/lukaschoebel/cashflow/develop/HyperledgerFabric_Report_KulikovSchoebel.pdf) and [presentation](https://raw.githubusercontent.com/lukaschoebel/cashflow/develop/HyperledgerFabric_Presentation_KulikovSchoebel.pdf), we examined the technical characteristics of Hyperledger Fabric and described a specific use case of the proposed prototype in more detail.
 
 ## Getting Started
 
@@ -100,8 +104,8 @@ docker container prune
 
 ## Authors
 
-*[**Alex Kulikov**](https://github.com/alex-kulikov-git)
-*[**Lukas Schöbel**](https://github.com/lukaschoebel)
+- [**Alex Kulikov**](https://github.com/alex-kulikov-git)
+- [**Lukas Schöbel**](https://github.com/lukaschoebel)
 
 ## License
 
@@ -109,5 +113,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## Acknowledgments
 
-*We are very grateful to the entire Hyperledger Community, the [master repository](https://github.com/hyperledger/fabric) and the provided [samples](https://github.com/hyperledger/fabric-samples)
-*Horea Porutiu, his [implementations](https://github.com/horeaporutiu/commercialPaperLoopback) and [videos](https://www.youtube.com/watch?v=1Evy4Zuppm0) on setting up Hyperledger Fabric
+- We are very grateful to the entire Hyperledger Community, the [master repository](https://github.com/hyperledger/fabric) and the provided [samples](https://github.com/hyperledger/fabric-samples)
+- Horea Porutiu, his [implementations](https://github.com/horeaporutiu/commercialPaperLoopback) and [videos](https://www.youtube.com/watch?v=1Evy4Zuppm0) on setting up Hyperledger Fabric
