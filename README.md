@@ -4,25 +4,24 @@
     <br>
 <p>
 
+# CashFlow
+
+This project originated from the seminar on [*Advanced Blockchain Technologies*](https://www.in.tum.de/i13/teaching/winter-semester-201920/advanced-seminar-blockchain-technologies/) (IN2107) at the Technical University of Munich. Within the scope of this course, we analyzed the technical characteristics, advantages as well as limitations of Hyperledger Fabric thoroughly, and proposed a proof-of-concept for a given use case.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
-- [CashFlow](#cashflow)
-  - [Use Case & Motivation](#use-case--motivation)
-  - [Getting Started](#getting-started)
-    - [Setting Up Hyperledger Fabric](#setting-up-hyperledger-fabric)
-    - [Setting Up the Blockchain Application](#setting-up-the-blockchain-application)
-    - [Docker Troubleshooting](#docker-troubleshooting)
-  - [Authors](#authors)
-  - [License](#license)
-  - [Acknowledgments](#acknowledgments)
+- [Use Case & Motivation](#use-case--motivation)
+- [Getting Started](#getting-started)
+  - [Setting Up Hyperledger Fabric](#setting-up-hyperledger-fabric)
+  - [Setting Up the Blockchain Application](#setting-up-the-blockchain-application)
+  - [Docker Troubleshooting](#docker-troubleshooting)
+- [Authors](#authors)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# CashFlow
-
-This project originated from the seminar on [*Advanced Blockchain Technologies*](https://www.in.tum.de/i13/teaching/winter-semester-201920/advanced-seminar-blockchain-technologies/) (IN2107) at the Technical University of Munich. Within the scope of this course, we analyzed the technical characteristics, advantages as well as limitations of Hyperledger Fabric thoroughly, and proposed a proof-of-concept for a given use case.
 
 ## Use Case & Motivation
 
