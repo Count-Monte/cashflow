@@ -114,4 +114,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 ## Acknowledgments
 
 - We are very grateful to the entire Hyperledger Community, the [master repository](https://github.com/hyperledger/fabric) and the provided [samples](https://github.com/hyperledger/fabric-samples)
-- Horea Porutiu, his [implementations](https://github.com/horeaporutiu/commercialPaperLoopback) and [videos](https://www.youtube.com/watch?v=1Evy4Zuppm0) on setting up Hyperledger Fabric
+- Kudos to Horea Porutiu for inspiration, his [implementations](https://github.com/horeaporutiu/commercialPaperLoopback) and [videos](https://www.youtube.com/watch?v=1Evy4Zuppm0) on setting up Hyperledger Fabric
