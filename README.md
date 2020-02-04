@@ -4,11 +4,21 @@
     <br>
 <p>
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [CashFlow](#cashflow)
+  - [Use Case & Motivation](#use-case--motivation)
+  - [HowTo](#howto)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # CashFlow
 
 This project originated from the seminar on *Advanced Blockchain Technologies* (IN2107) at the Technical University of Munich. Within the scope of this course, we analyzed the technical characteristics, advantages as well as limitations of Hyperledger Fabric thoroughly, and proposed a proof-of-concept for a use case.
 
-## Use Case & Motivation 
+## Use Case & Motivation
 
 With the objective to track money in large construction projects, project `CashFlow` aims to build a redundant alternative to legal agreements on paper. By implementing a prototype based on Hyperledger Fabric, we suggest a solution that is transparent, secure and efficient.
 
