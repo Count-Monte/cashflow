@@ -78,7 +78,11 @@ node registerUser.js -a Authority -o Construction\ Company -c Architect
 # Create and sign a new legal agreement as organizer with the following parameters:
 # > id: "LAG4", hash: "52ABC1042", amount: "10M", partner_1: "Construction Company", partner_2: "Architect"
 node query.js organizer create LAG4 52ABC1042 10M Construction\ Company Architect
+```
 
+<img src="https://github.com/lukaschoebel/cashflow/blob/develop/assets/cashflow.gif" width="400" />
+
+```bash
 # Sign legal agreement "LAG4" as contractor and check the respective document
 node query.js contractor sign LAG4
 node query.js contractor query LAG4
@@ -113,5 +117,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## Acknowledgments
 
-- We are very grateful to the entire Hyperledger Community, the [master repository](https://github.com/hyperledger/fabric) and the provided [samples](https://github.com/hyperledger/fabric-samples)
-- Kudos to Horea Porutiu for inspiration, his [implementations](https://github.com/horeaporutiu/commercialPaperLoopback) and [videos](https://www.youtube.com/watch?v=1Evy4Zuppm0) on setting up Hyperledger Fabric
+- We are very grateful for the advices of the entire Hyperledger Community, the [master repository](https://github.com/hyperledger/fabric) and the provided [samples](https://github.com/hyperledger/fabric-samples)
+- Kudos to *Horea Porutiu* for inspiration, his [insights](https://github.com/horeaporutiu/commercialPaperLoopback) and [videos](https://www.youtube.com/watch?v=1Evy4Zuppm0) on setting up Hyperledger Fabric

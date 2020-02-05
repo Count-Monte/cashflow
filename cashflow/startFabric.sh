@@ -101,11 +101,7 @@ cat <<EOF
 
 Total setup execution time : $(($(date +%s) - starttime)) secs ...
 
-Next, use the Cashflow applications to interact with the deployed Cashflow contract.
-The Cashflow applications are available in multiple programming languages.
-Follow the instructions for the programming language of your choice:
-
-JavaScript:
+Next, use the Cashflow applications to interact with the deployed Cashflow contract in JavaScript:
 
   Start by changing into the "javascript" directory:
     cd javascript
@@ -119,12 +115,12 @@ JavaScript:
     node enrollAdmin.js
     node registerUser.js -a theAuthority -o Construction\ Company -c Architect
 
-  You can run the invoke application as follows. By default, the invoke application will
-  create a new car, but you can update the application to submit other transactions:
-    node invoke
+  After enrolling and registering you can create a legal agreement by providing the 
+  appropriate user role (organizer/authority) and specifying 'create' as function.
+  Additionally, you have to specify ID, hash, budget and the involved partners.
+    node query.js organizer create LAG4 52ABC1042 10M Construction\ Company Architect
 
-  You can run the query application as follows. By default, the query application will
-  return all cars, but you can update the application to evaluate other transactions:
-    node query
+  For in-depth description of other functions, please refer to the official repository:
+    https://github.com/lukaschoebel/cashflow
 
 EOF
