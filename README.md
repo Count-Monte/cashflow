@@ -80,7 +80,7 @@ node registerUser.js -a Authority -o Construction\ Company -c Architect
 node query.js organizer create LAG4 52ABC1042 10M Construction\ Company Architect
 ```
 
-<img src="https://github.com/lukaschoebel/cashflow/blob/develop/assets/cashflow.gif" width="400" />
+<img src="https://github.com/lukaschoebel/cashflow/blob/develop/assets/cashflow.gif" width="800" />
 
 ```bash
 # Sign legal agreement "LAG4" as contractor and check the respective document
