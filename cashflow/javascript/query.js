@@ -11,7 +11,7 @@ async function main() {
         // Create a new file system based wallet for managing identities.
         const walletPath = path.join(process.cwd(), 'wallet');
         const wallet = new FileSystemWallet(walletPath);
-        console.log(`Wallet path: ${walletPath}`);
+        console.log("Wallet successfully instantiated.");
 
         let args = process.argv.slice(2);
         let userRole;
@@ -56,6 +56,7 @@ async function main() {
             case 'queryAll':
                 result = await contract.evaluateTransaction('queryAllAgreements', userRole);
                 break;
+                
             case 'query':
                 // args[2] is agreementNumber
                 if (!args[2]) {
@@ -64,6 +65,7 @@ async function main() {
                 }
                 result = await contract.evaluateTransaction('queryAgreement', userRole, args[2]);
                 break;
+
             case 'create':
                 let [agreementNumber, cid, camount, cpartner_1, cpartner_2] = args.slice(2)
 
@@ -71,9 +73,9 @@ async function main() {
                     console.error('Please enter valid parameters.');
                     process.exit(1);
                 }
-
                 result = await contract.submitTransaction('createAgreement', userRole, agreementNumber, cid, camount, cpartner_1, cpartner_2);
                 break;
+
             case 'changeAmount':
                 let [agreementNumberRef, newAmount] = args.slice(2,4)
 
@@ -81,18 +83,18 @@ async function main() {
                     console.error('Please enter valid parameters.');
                     process.exit(1);
                 }
-
                 result = await contract.submitTransaction('changeAgreementAmount', userRole, agreementNumberRef, newAmount);
                 break;
+
             case 'sign':
                 // args[2] is agreementNumber
                 if (!args[2]) {
                     console.error('Please enter valid parameters.');
                     process.exit(1);
                 }
-
                 result = await contract.submitTransaction('signAgreement', userRole, args[2]);
                 break;
+
             default:
                 console.error('Please enter a valid function name.');
                 process.exit(1);

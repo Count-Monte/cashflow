@@ -1,21 +1,25 @@
 #!/bin/bash
-#
+
 # Exit on first error
 set -e
 
 # don't rewrite paths for Windows Git Bash users
 export MSYS_NO_PATHCONV=1
 starttime=$(date +%s)
-CC_SRC_LANGUAGE=${1:-"javascript"}
 CC_RUNTIME_LANGUAGE=node # chaincode runtime language is node.js
 CC_SRC_PATH=/opt/gopath/src/github.com/chaincode/cashflow/javascript
 
 # clean the keystore
 rm -rf ./hfc-key-store
 
-# remove the existing wallet and node modules
+# remove the existing wallet and node modules if they exist
+NODE_MODULE_DIRECTORY="javascript/node_modules"
+if [[ "$1" = "--rm" && -d "$NODE_MODULE_DIRECTORY" ]]; then
+  echo "Removing cached node_modules"
+  rm -rf ./javascript/node_modules
+fi
+
 rm -rf ./javascript/wallet
-rm -rf ./javascript/node_modules
 
 # launch network; create channel and join peer to channel
 cd ../first-network

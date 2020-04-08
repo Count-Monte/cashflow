@@ -51,7 +51,7 @@ The application has been developed on MacOS 10.15 Catalina. For more detailed in
 
 ### Setting Up the Blockchain Application
 
-Having installed all prerequisites, the following commands setup the network by executing the `startFabric.sh` script and installing all required node modules.
+Having installed all prerequisites, the following commands setup the network by executing the `startFabric.sh` script and installing all required node modules. First, ensure to launch Docker and then subsequently copy the following commands to setup the network.
 
 ```bash
 # Change to directory and start Fabric network
