@@ -51,10 +51,10 @@ The application has been developed on MacOS 10.15 Catalina. For more detailed in
 
 ### Setting Up the Blockchain Application
 
-Having installed all prerequisites, the following commands setup the network by executing the `startFabric.sh` script and installing all required node modules. First, ensure to launch Docker and then subsequently copy the following commands to setup the network.
+Having installed all prerequisites, the following commands setup the network by executing the `startFabric.sh` script and installing all required node modules. First, ensure to launch Docker and then subsequently copy the following commands to setup the network. The `startFabric` script will configure the Docker containers. Concatenating the command with the flag '--rm' will remove any node_modules, otherwise the cached modules are utilized.
 
 ```bash
-# Change to directory and start Fabric network
+# Change to cashflow directory and start Fabric network
 ./cashflow/startFabric.sh
 
 # Change to javascript folder and install all necessary node modules
