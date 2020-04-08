@@ -91,6 +91,8 @@ node query.js contractor query LAG4
 node query.js authority queryAll
 ```
 
+<img src="https://github.com/lukaschoebel/cashflow/blob/develop/assets/queryAll.gif" width="800" />
+
 ### Docker Troubleshooting
 
 The following commands will be performed within the `startFabric` script. However, if there seems to be an issue with Docker, it might help to reboot all containers and prune the images. Hence, the following commands might help here.
