@@ -1,0 +1,8 @@
+Describe the bug
+When I try to use any of the Charts available in the package I get the following issue. Tested on multiple devices, also with a newly init App. However, weirdly when I copied the code for the charts from source it works without any errors.
+
+To Reproduce
+Steps to reproduce the behavior:
+
+Copy Example App
+See error
