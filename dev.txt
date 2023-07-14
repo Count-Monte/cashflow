@@ -6,3 +6,12 @@ Steps to reproduce the behavior:
 
 Copy Example App
 See error
+
+
+✓ Developing smart contracts by Solidity and Rust programming languages. 
+✓ Integrating Smart Contract with Web Page with Web3js and EtherJs. 
+✓ Static analysis of smart contracts for gas consumption and optimization using Remix IDE. 
+✓ Securing smart contracts using libraries like OpenZeppelin.
+✓ Developing and deploying smart contract using Hardhat. 
+✓ Integration with crypto wallets such as Metamask & Wallet Connect. 
+✓ Deploying smart contracts on test networks such as ropsten/rinkeby as well as ethereum/solana mainnet. 
